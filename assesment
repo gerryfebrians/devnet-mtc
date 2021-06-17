@@ -26,7 +26,7 @@ namespace assesment
             }
                         
             Console.WriteLine(new string('-',30));
-            cetak = nama == "compnet" ? "Nama perusahaan kita" : "Bukan nama perusaah kita";
+            cetak = nama == "compnet" ? "Nama perusahaan kita" : "Bukan nama perusahaan kita";
 
             Console.WriteLine($"{nama} adalah {cetak}");
 
@@ -42,7 +42,7 @@ namespace assesment
    Fungsi utama git yaitu mengatur versi dari source code program anda dengan mengasih tanda baris dan code mana yang ditambah atau diganti.
    Git ini sebenernya memudahkan programmer untuk mengetahui perubahan source codenya daripada harus membuat file baru.
 
-4. Docker adalah aplikasi open source untuk menyatukan file-file yang dibutuhkan sebuah software sehingga menjadi menjadi satu kesatuan yang lengkap dab berfungsi. Data pengaturan dan file pendukung disebut sebagai image. Selanjutnya kumpulan image digabung dalam satu wadah yang disebut Container.
+4. Docker adalah aplikasi open source untuk menyatukan file-file yang dibutuhkan sebuah software sehingga menjadi menjadi satu kesatuan yang lengkap dan berfungsi. Data pengaturan dan file pendukung disebut sebagai image. Selanjutnya kumpulan image digabung dalam satu wadah yang disebut Container.
    Docker merupakan solusi dari permasalahan yang kerap dialami para developer untuk mengembangkan aplikasi mereka agar bisa berjalan fleksibel di berbagai lingkungan.
 
 5. Kubernetes adalah platform open source untuk mengelola kumpulan kontainer dalam suatu cluster server.
